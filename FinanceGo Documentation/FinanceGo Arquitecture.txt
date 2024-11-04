@@ -1,0 +1,38 @@
+
+
+projeto_cqrs/
+├── src/
+│   ├── Application/
+│   │   ├── Commands/
+│   │   │   ├── Requests/
+│   │   │   ├── Responses/
+│   │   │   └── Handlers/
+│   │   ├── Queries/
+│   │   │   ├── Requests/
+│   │   │   ├── Responses/
+│   │   │   └── Handlers/
+│   │   └── EventHandlers/
+│   ├── Domain/
+│   │   ├── Entities/
+│   │   ├── Aggregates/
+│   │   ├── Services/
+│   │   ├── Repositories/
+│   │   ├── Enumerators/
+│   │   └── Language/
+│   ├── Infrastructure/
+│   │   ├── Messaging/
+│   │   │   ├── Producers/
+│   │   │   ├── Consumers/
+│   │   │   └── Config/
+│   │   ├── Persistence/
+│   │   │   ├── Repositories/
+│   │   │   ├── EventStore/
+│   │   │   └── Config/
+│   │   ├── Adapters/
+│   │   └── Config/
+│   ├── Presentation/
+│   │   ├── API Controllers/
+│   │   └── DTOs/
+│   ├── Tests/
+│   └── config/
+└── outros_arquivos_e_pastas/
